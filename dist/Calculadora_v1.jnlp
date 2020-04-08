@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Calculadora_v1.jnlp">
+  <information>
+    <title>Calculadora_v1</title>
+    <vendor>caio_</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Calculadora_v1.jar" size="6390" download="eager" />
+    <jar href="lib\javafx-swt.jar" size="36811" download="eager" />
+    <jar href="lib\javafx.base.jar" size="749889" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2511137" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="127395" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4295861" download="eager" />
+    <jar href="lib\javafx.media.jar" size="270594" download="eager" />
+    <jar href="lib\javafx.swing.jar" size="119848" download="eager" />
+    <jar href="lib\javafx.web.jar" size="714741" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.48.jar" size="1006956" download="eager" />
+    <jar href="lib\nb-javac-api.jar" size="192018" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Calculadora_v1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafx1.Javafx1"  name="Calculadora_v1" />
+  <update check="always"/>
+</jnlp>
